@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native"
 
-const Styles = StyleSheet.create({
+const SignInStyle = StyleSheet.create({
     container:{
       flex: 1,
       backgroundColor: '#444654',
@@ -29,7 +29,7 @@ const Styles = StyleSheet.create({
       paddingHorizontal: 12,
       elevation: 10,
     },
-    buttonContainer:{
+    buttonSubmitContainer:{
       height: 45,
       marginTop: 10,
       backgroundColor: '#19c37d',
@@ -38,10 +38,23 @@ const Styles = StyleSheet.create({
       borderRadius: 10,
       elevation: 10,
     },
-    buttonContent:{
+    buttonSubmitContent:{
+      color: '#ffffff',
+      fontSize: 20,
+    },
+    buttonBai34Contanier:{
+      height: 45,
+      marginTop: 10,
+      backgroundColor: '#444654',
+      justifyContent: 'center',
+      alignItems: 'center',
+      borderRadius: 10,
+      elevation: 10,
+    },
+    buttonBai34Content:{
       color: '#ffffff',
       fontSize: 20,
     },
 })
 
-export default Styles;
+export default SignInStyle;
